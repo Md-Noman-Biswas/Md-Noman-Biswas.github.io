@@ -1,0 +1,76 @@
+# ── Accepted ──────────────────────────────────────────────────────────────────
+
+- id: cnn-review
+  title: "A Comprehensive Review of Convolutional Neural Networks: Foundations, Enhancements, and Applications"
+  authors:
+    - name: Md Noman Biswas Sibly
+      is_me: true
+    - name: et al.
+      is_me: false
+  year: 2025
+  venue: "Neural Computing and Applications"
+  publisher: "Springer"
+  journal: true
+  quartile: "Q1"
+  impact_factor: "5.102"
+  status: accepted
+  links:
+    doi: ""
+    pdf: ""
+    arxiv: ""
+    code: ""
+
+- id: gallbladder-unet-vit
+  title: "Noise-Robust Gallbladder Ultrasound Image Classification Using U-Net GAN Denoising and Vision Transformer"
+  authors:
+    - name: Md Noman Biswas Sibly
+      is_me: true
+    - name: et al.
+      is_me: false
+  year: 2026
+  venue: "International Conference on Quantum Photonics and AI in Next-gen Medicine (QPAIN)"
+  publisher: ""
+  conference: true
+  quartile: ""
+  impact_factor: ""
+  status: accepted
+  links:
+    doi: ""
+    pdf: ""
+    arxiv: ""
+    code: ""
+
+# ── Under Review ───────────────────────────────────────────────────────────────
+
+- id: jtadc-net
+  title: "JTADC-Net: An Adversarial Joint Task-Aware Denoising and Classification Network for Noise Robust Gallbladder Disease Diagnosis"
+  authors:
+    - name: Md Noman Biswas Sibly
+      is_me: true
+    - name: et al.
+      is_me: false
+  year: 2025
+  venue: "Biomedical Signal Processing and Control (BSPC)"
+  publisher: "Elsevier"
+  journal: true
+  quartile: "Q1"
+  impact_factor: ""
+  status: under_review
+  links:
+    doi: ""
+    pdf: ""
+    arxiv: ""
+    code: ""
+
+# ── Ongoing ────────────────────────────────────────────────────────────────────
+
+- id: trustworthy-ai-thesis
+  title: "TrustWorthy AI — Undergraduate Thesis"
+  authors:
+    - name: Md Noman Biswas Sibly
+      is_me: true
+  year: 2026
+  venue: "RUET Undergraduate Thesis"
+  publisher: ""
+  status: ongoing
+  links: {}

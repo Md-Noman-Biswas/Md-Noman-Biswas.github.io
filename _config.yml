@@ -1,0 +1,64 @@
+title: Md Noman Biswas Sibly
+name: Md Noman Biswas Sibly
+description: >
+  Final-year ECE student at RUET | Trustworthy AI | Deep Learning | Computer Vision
+url: "https://Md-Noman-Biswas.github.io"
+baseurl: ""
+lang: en
+
+author:
+  name: Md Noman Biswas Sibly
+  position: B.Sc. in Electrical and Computer Engineering, RUET
+  institution: Rajshahi University of Engineering & Technology
+  location: Jhenaidah, Bangladesh
+  email: mdnomanbiswassibly@gmail.com
+  github: Md-Noman-Biswas
+  linkedin: md-noman-biswas-sibly
+  google_scholar: ""
+  orcid: ""
+
+include:
+  - _pages
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "page"
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "_projects"
+    values:
+      layout: "page"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+  - node_modules/
+  - .sass-cache/

@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="container profile-section" style="max-width: 900px;">
+  <div class="row g-4 g-md-5 align-items-start">
+
+    <!-- Left: profile card -->
+    <div class="col-12 col-md-3 text-center text-md-start">
+      <img src="{{ '/assets/img/profile_photo.jpg' | relative_url }}"
+           alt="{{ site.author.name }}"
+           class="profile-photo"
+           onerror="this.style.display='none'">
+      <p class="profile-name">{{ site.author.name }}</p>
+      <p class="profile-position">{{ site.author.position }}</p>
+      <p class="profile-location">
+        <i class="fa-solid fa-location-dot"></i>
+        {{ site.author.location }}
+      </p>
+      {% include social-links.html %}
+    </div>
+
+    <!-- Right: bio content -->
+    <div class="col-12 col-md-9">
+      <div class="bio-content">
+        {{ content }}
+      </div>
+    </div>
+
+  </div>
+</div>

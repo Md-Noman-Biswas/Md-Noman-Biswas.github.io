@@ -1,0 +1,90 @@
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+
+  @media (min-width: $breakpoint-md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.project-card {
+  background-color: var(--bg-card) !important;
+  border: 1px solid var(--border-color) !important;
+  border-radius: 10px;
+  transition: box-shadow $theme-transition, transform 0.15s ease, background-color $theme-transition, border-color $theme-transition;
+  overflow: hidden;
+
+  &:hover {
+    box-shadow: var(--shadow-card);
+    transform: translateY(-2px);
+  }
+
+  .card-body {
+    padding: 1.25rem;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-title {
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: var(--text-primary) !important;
+    margin-bottom: 0.5rem;
+    line-height: 1.35;
+  }
+
+  .card-text {
+    font-size: 0.85rem;
+    color: var(--text-secondary) !important;
+    line-height: 1.55;
+    flex: 1;
+    margin-bottom: 0.75rem;
+  }
+
+  .tech-tags {
+    margin-bottom: 0.9rem;
+  }
+
+  .card-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: auto;
+  }
+}
+
+.btn-project {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.75rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.15s ease;
+
+  &.btn-github {
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+
+    &:hover {
+      background-color: var(--bg-secondary);
+      color: var(--text-primary);
+      border-color: var(--text-secondary);
+      text-decoration: none;
+    }
+  }
+
+  &.btn-demo {
+    background-color: var(--accent);
+    border: 1px solid var(--accent);
+    color: #fff;
+
+    &:hover {
+      background-color: var(--accent-hover);
+      border-color: var(--accent-hover);
+      text-decoration: none;
+    }
+  }
+}

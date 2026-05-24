@@ -1,0 +1,103 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color $theme-transition, color $theme-transition;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main.main-content {
+  flex: 1;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color $theme-transition;
+
+  &:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--border-color);
+  opacity: 1;
+  margin: 1.5rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+}
+
+// Status badges
+.status-badge {
+  display: inline-block;
+  padding: 0.2em 0.65em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
+
+.badge-accepted {
+  background-color: var(--badge-accepted-bg);
+  color: var(--badge-accepted-fg);
+}
+
+.badge-review {
+  background-color: var(--badge-review-bg);
+  color: var(--badge-review-fg);
+}
+
+.badge-ongoing {
+  background-color: var(--badge-ongoing-bg);
+  color: var(--badge-ongoing-fg);
+}
+
+// Technology / skill tags
+.tag {
+  display: inline-block;
+  padding: 0.18em 0.55em;
+  font-size: 0.73rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-right: 0.3em;
+  margin-bottom: 0.25em;
+  transition: background-color $theme-transition, color $theme-transition, border-color $theme-transition;
+}
+
+// Section headings
+.section-heading {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+// Page container
+.page-container {
+  max-width: $max-content-width;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}

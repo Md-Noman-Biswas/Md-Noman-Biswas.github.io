@@ -1,0 +1,123 @@
+.publications-page {
+  h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid var(--border-color);
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.publication-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  margin-bottom: 0.85rem;
+  transition: box-shadow $theme-transition, background-color $theme-transition, border-color $theme-transition;
+
+  &:hover {
+    box-shadow: var(--shadow-card);
+  }
+
+  .pub-year {
+    font-size: 0.78rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    min-width: 2.5rem;
+    padding-top: 0.2rem;
+  }
+
+  .pub-body {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .pub-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+    line-height: 1.45;
+  }
+
+  .pub-authors {
+    font-size: 0.83rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.25rem;
+    line-height: 1.4;
+
+    strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+  }
+
+  .pub-venue {
+    font-size: 0.83rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.4rem;
+    line-height: 1.4;
+
+    .quartile-badge {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 0.12em 0.45em;
+      background-color: var(--badge-ongoing-bg);
+      color: var(--badge-ongoing-fg);
+      border-radius: 3px;
+      margin-left: 0.35rem;
+      vertical-align: middle;
+    }
+
+    .if-text {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-left: 0.3rem;
+    }
+  }
+
+  .pub-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+  }
+
+  .pub-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    margin-top: 0.4rem;
+  }
+}
+
+.pub-link {
+  display: inline-block;
+  font-size: 0.74rem;
+  font-weight: 500;
+  padding: 0.18em 0.6em;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  color: var(--text-secondary);
+  transition: background-color $theme-transition, color $theme-transition, border-color $theme-transition;
+
+  &:hover {
+    background-color: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,59 @@
+<div class="publication-card">
+  <div class="pub-year">{{ include.pub.year }}</div>
+  <div class="pub-body">
+
+    <p class="pub-title">{{ include.pub.title }}</p>
+
+    <p class="pub-authors">
+      {% for author in include.pub.authors %}
+        {% if author.is_me %}
+          <strong>{{ author.name }}</strong>
+        {% else %}
+          {{ author.name }}
+        {% endif %}
+        {% unless forloop.last %},&nbsp;{% endunless %}
+      {% endfor %}
+    </p>
+
+    <p class="pub-venue">
+      <em>{{ include.pub.venue }}</em>
+      {% if include.pub.publisher and include.pub.publisher != "" %}
+        ({{ include.pub.publisher }})
+      {% endif %}
+      {% if include.pub.quartile and include.pub.quartile != "" %}
+        <span class="quartile-badge">{{ include.pub.quartile }}</span>
+      {% endif %}
+      {% if include.pub.impact_factor and include.pub.impact_factor != "" %}
+        <span class="if-text">IF&nbsp;{{ include.pub.impact_factor }}</span>
+      {% endif %}
+    </p>
+
+    <div class="pub-meta">
+      {% if include.pub.status == "accepted" %}
+        <span class="status-badge badge-accepted">&#10003;&nbsp;Accepted</span>
+      {% elsif include.pub.status == "under_review" %}
+        <span class="status-badge badge-review">&#9711;&nbsp;Under Review</span>
+      {% elsif include.pub.status == "ongoing" %}
+        <span class="status-badge badge-ongoing">&#9654;&nbsp;Ongoing</span>
+      {% endif %}
+    </div>
+
+    {% if include.pub.links %}
+    <div class="pub-links">
+      {% if include.pub.links.doi and include.pub.links.doi != "" %}
+        <a href="{{ include.pub.links.doi }}" class="pub-link" target="_blank" rel="noopener">DOI</a>
+      {% endif %}
+      {% if include.pub.links.pdf and include.pub.links.pdf != "" %}
+        <a href="{{ include.pub.links.pdf }}" class="pub-link" target="_blank" rel="noopener">PDF</a>
+      {% endif %}
+      {% if include.pub.links.arxiv and include.pub.links.arxiv != "" %}
+        <a href="{{ include.pub.links.arxiv }}" class="pub-link" target="_blank" rel="noopener">arXiv</a>
+      {% endif %}
+      {% if include.pub.links.code and include.pub.links.code != "" %}
+        <a href="{{ include.pub.links.code }}" class="pub-link" target="_blank" rel="noopener">Code</a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+  </div>
+</div>

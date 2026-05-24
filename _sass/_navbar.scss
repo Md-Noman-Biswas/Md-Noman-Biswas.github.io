@@ -1,0 +1,83 @@
+#main-navbar {
+  background-color: var(--bg-navbar) !important;
+  box-shadow: var(--navbar-shadow);
+  transition: background-color $theme-transition, box-shadow $theme-transition;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+
+  .navbar-brand {
+    color: var(--text-primary) !important;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    transition: color $theme-transition;
+
+    &:hover {
+      color: var(--accent) !important;
+      text-decoration: none;
+    }
+  }
+
+  .nav-link {
+    color: var(--text-secondary) !important;
+    font-size: 0.88rem;
+    padding: 0.35rem 0.75rem !important;
+    border-radius: 6px;
+    transition: color $theme-transition, background-color $theme-transition;
+
+    &:hover {
+      color: var(--text-primary) !important;
+      background-color: var(--bg-secondary);
+    }
+
+    &.active {
+      color: var(--accent) !important;
+      font-weight: 600;
+      background-color: transparent;
+    }
+  }
+
+  .navbar-toggler {
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 0.3rem 0.5rem;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}
+
+// Fix hamburger icon color in dark mode
+html[data-theme="dark"] #main-navbar .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+// Theme toggle button
+.theme-toggle-btn {
+  color: var(--toggle-color);
+  background-color: var(--toggle-bg);
+  border: 1px solid var(--toggle-border);
+  border-radius: 6px;
+  padding: 0.3rem 0.6rem;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  cursor: pointer;
+  transition: color $theme-transition, background-color $theme-transition, border-color $theme-transition;
+
+  i {
+    pointer-events: none;
+  }
+
+  &:hover {
+    color: var(--accent);
+    border-color: var(--accent);
+    background-color: var(--bg-secondary);
+  }
+
+  &:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+    box-shadow: none;
+  }
+}

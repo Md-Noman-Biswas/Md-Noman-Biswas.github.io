@@ -1,0 +1,16 @@
+// Typography
+$font-family-base: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+$font-family-mono: "JetBrains Mono", "Fira Code", monospace;
+$font-size-base: 1rem;
+$line-height-base: 1.75;
+
+// Layout
+$navbar-height: 56px;
+$max-content-width: 860px;
+$section-spacing: 2.5rem;
+
+// Transitions
+$theme-transition: 0.2s ease;
+
+// Breakpoints (matches Bootstrap)
+$breakpoint-md: 768px;
