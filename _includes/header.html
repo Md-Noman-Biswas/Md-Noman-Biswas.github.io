@@ -5,14 +5,18 @@
       {{ site.author.name }}
     </a>
 
-    <button class="navbar-toggler" type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarMain"
-            aria-controls="navbarMain"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <!-- Mobile: theme toggle + hamburger always visible -->
+    <div class="d-flex d-md-none align-items-center gap-1">
+      {% include theme-toggle.html %}
+      <button class="navbar-toggler" type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarMain"
+              aria-controls="navbarMain"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
 
     <div class="collapse navbar-collapse" id="navbarMain">
       <ul class="navbar-nav ms-auto align-items-md-center me-2">
@@ -26,7 +30,10 @@
         </li>
         {% endfor %}
       </ul>
-      {% include theme-toggle.html %}
+      <!-- Desktop: theme toggle inside collapse -->
+      <div class="d-none d-md-flex align-items-center">
+        {% include theme-toggle.html %}
+      </div>
     </div>
 
   </div>
