@@ -13,40 +13,39 @@
   function applyTheme(setting) {
     document.documentElement.setAttribute("data-theme", setting);
 
-    var btn = document.getElementById("theme-toggle-btn");
-    if (btn) {
-      var icon = btn.querySelector("i");
-      if (icon) {
-        if (setting === "dark") {
-          icon.className = "fa-solid fa-sun";
-          btn.setAttribute("title", "Switch to light mode");
-          btn.setAttribute("aria-label", "Switch to light mode");
-        } else {
-          icon.className = "fa-solid fa-moon";
-          btn.setAttribute("title", "Switch to dark mode");
-          btn.setAttribute("aria-label", "Switch to dark mode");
-        }
+    var moon = document.getElementById("icon-moon");
+    var sun  = document.getElementById("icon-sun");
+    var btn  = document.getElementById("theme-toggle-btn");
+
+    if (setting === "dark") {
+      if (moon) moon.style.display = "none";
+      if (sun)  sun.style.display  = "block";
+      if (btn) {
+        btn.setAttribute("title", "Switch to light mode");
+        btn.setAttribute("aria-label", "Switch to light mode");
+      }
+    } else {
+      if (moon) moon.style.display = "block";
+      if (sun)  sun.style.display  = "none";
+      if (btn) {
+        btn.setAttribute("title", "Switch to dark mode");
+        btn.setAttribute("aria-label", "Switch to dark mode");
       }
     }
   }
 
   function toggleTheme() {
-    var current = getSetting();
-    var next = current === "dark" ? "light" : "dark";
-    try {
-      localStorage.setItem(STORAGE_KEY, next);
-    } catch (e) {}
+    var next = getSetting() === "dark" ? "light" : "dark";
+    try { localStorage.setItem(STORAGE_KEY, next); } catch (e) {}
     applyTheme(next);
   }
 
-  // Apply before first paint to prevent flash
+  // Run before first paint to prevent flash
   applyTheme(getSetting());
 
   document.addEventListener("DOMContentLoaded", function () {
     applyTheme(getSetting());
     var btn = document.getElementById("theme-toggle-btn");
-    if (btn) {
-      btn.addEventListener("click", toggleTheme);
-    }
+    if (btn) btn.addEventListener("click", toggleTheme);
   });
 })();
