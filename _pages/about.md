@@ -26,6 +26,12 @@ I have hands-on experience in AI-driven medical image analysis, including work o
 
 <div class="news-section">
   <div class="news-item">
+    <span class="news-date">2026</span>
+    <span class="news-text">
+      Submitted first-author paper <strong>JTADC-Net</strong> to <em>Biomedical Signal Processing and Control</em> (Elsevier, Q1) — currently under review.
+    </span>
+  </div>
+  <div class="news-item">
     <span class="news-date">May 2026</span>
     <span class="news-text">
       Paper accepted at <strong>QPAIN 2026</strong> — "Noise-Robust Gallbladder Ultrasound Image Classification Using U-Net GAN Denoising and Vision Transformer".
@@ -35,12 +41,6 @@ I have hands-on experience in AI-driven medical image analysis, including work o
     <span class="news-date">2025</span>
     <span class="news-text">
       Co-authored paper accepted in <strong>Neural Computing and Applications</strong> (Springer, Q1, IF 5.102) — a comprehensive review of CNNs.
-    </span>
-  </div>
-  <div class="news-item">
-    <span class="news-date">2025</span>
-    <span class="news-text">
-      Submitted first-author paper <strong>JTADC-Net</strong> to <em>Biomedical Signal Processing and Control</em> (Elsevier, Q1) — currently under review.
     </span>
   </div>
   <div class="news-item">

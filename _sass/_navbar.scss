@@ -53,17 +53,22 @@ html[data-theme="dark"] #main-navbar .navbar-toggler-icon {
   filter: invert(1);
 }
 
-// Theme toggle button
+// Theme toggle button — minimal circle icon
 .theme-toggle-btn {
-  color: var(--toggle-color);
-  background-color: var(--toggle-bg);
-  border: 1px solid var(--toggle-border);
-  border-radius: 6px;
-  padding: 0.3rem 0.6rem;
-  font-size: 0.85rem;
-  line-height: 1.2;
+  color: var(--text-secondary);
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1;
   cursor: pointer;
-  transition: color $theme-transition, background-color $theme-transition, border-color $theme-transition;
+  transition: color $theme-transition, background-color $theme-transition;
+  padding: 0;
 
   i {
     pointer-events: none;
@@ -71,7 +76,6 @@ html[data-theme="dark"] #main-navbar .navbar-toggler-icon {
 
   &:hover {
     color: var(--accent);
-    border-color: var(--accent);
     background-color: var(--bg-secondary);
   }
 
