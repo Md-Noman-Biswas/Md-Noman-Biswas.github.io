@@ -1,10 +1,14 @@
 .profile-section {
-  padding: 2.5rem 0 1.5rem;
+  padding: 2rem 0 1.5rem;
+
+  @media (max-width: #{$breakpoint-md - 1}) {
+    padding: 1.5rem 0 1rem;
+  }
 }
 
 .profile-photo {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 12px;
   border: 3px solid var(--border-color);
@@ -13,6 +17,8 @@
   margin: 0 auto 1rem;
 
   @media (min-width: $breakpoint-md) {
+    width: 180px;
+    height: 180px;
     margin: 0 0 1rem;
   }
 }
@@ -42,6 +48,15 @@
   }
 }
 
+// Mobile: center profile card
+.profile-left {
+  text-align: center;
+
+  @media (min-width: $breakpoint-md) {
+    text-align: left;
+  }
+}
+
 .social-links {
   display: flex;
   flex-wrap: wrap;
@@ -55,8 +70,13 @@
 
   .social-link {
     color: var(--text-secondary);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     line-height: 1;
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: color $theme-transition, transform 0.15s ease;
 
     &:hover {
@@ -67,11 +87,16 @@
   }
 }
 
-// Bio content (right column on About page)
+// Bio content
 .bio-content {
   p {
     color: var(--text-primary);
     margin-bottom: 1rem;
+    font-size: 0.95rem;
+
+    @media (min-width: $breakpoint-md) {
+      font-size: 1rem;
+    }
   }
 
   ul, ol {
@@ -81,14 +106,13 @@
   }
 
   h2 {
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     font-weight: 700;
-    margin-top: 2rem;
+    margin-top: 1.75rem;
     margin-bottom: 0.75rem;
     color: var(--text-primary);
   }
 
-  // Arrow-style research interests list
   .research-list {
     list-style: none;
     padding-left: 0;
@@ -97,7 +121,8 @@
     li {
       padding-left: 1.4rem;
       position: relative;
-      margin-bottom: 0.35rem;
+      margin-bottom: 0.4rem;
+      font-size: 0.92rem;
 
       &::before {
         content: "→";
@@ -109,33 +134,35 @@
     }
   }
 
-  // "Seeking opportunities" callout
   .seeking-callout {
     background-color: var(--bg-secondary);
     border-left: 4px solid var(--accent);
     border-radius: 0 8px 8px 0;
     padding: 0.75rem 1rem;
-    margin: 1.5rem 0;
-    font-size: 0.9rem;
+    margin: 1.25rem 0;
+    font-size: 0.88rem;
     color: var(--text-secondary);
     transition: background-color $theme-transition, border-color $theme-transition;
 
-    strong {
-      color: var(--text-primary);
-    }
+    strong { color: var(--text-primary); }
   }
 }
 
 // News section
 .news-section {
-  margin-top: 2rem;
+  margin-top: 1.75rem;
 
   .news-item {
     display: flex;
-    gap: 1rem;
-    padding: 0.6rem 0;
+    gap: 0.75rem;
+    padding: 0.65rem 0;
     border-bottom: 1px solid var(--border-color);
-    font-size: 0.88rem;
+    font-size: 0.875rem;
+
+    @media (max-width: #{$breakpoint-md - 1}) {
+      flex-direction: column;
+      gap: 0.25rem;
+    }
 
     &:last-child {
       border-bottom: none;
@@ -144,14 +171,15 @@
     .news-date {
       color: var(--text-muted);
       white-space: nowrap;
-      min-width: 6.5rem;
-      font-size: 0.82rem;
+      min-width: 6rem;
+      font-size: 0.8rem;
       padding-top: 0.1rem;
+      font-weight: 600;
     }
 
     .news-text {
       color: var(--text-primary);
-      line-height: 1.5;
+      line-height: 1.55;
     }
   }
 }

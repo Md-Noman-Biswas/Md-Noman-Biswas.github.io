@@ -1,16 +1,15 @@
 <nav class="navbar navbar-expand-md sticky-top" id="main-navbar">
-  <div class="container d-flex align-items-center" style="max-width: 900px;">
+  <div class="container" style="max-width: 900px;">
 
     <!-- Brand -->
-    <a class="navbar-brand me-auto" href="{{ '/' | relative_url }}">
+    <a class="navbar-brand" href="{{ '/' | relative_url }}">
       {{ site.author.name }}
     </a>
 
-    <!-- Theme toggle + mobile hamburger always visible -->
-    <div class="d-flex align-items-center gap-1 ms-2">
+    <!-- Theme toggle + hamburger always visible on mobile -->
+    <div class="d-flex align-items-center gap-2 ms-auto d-md-none">
       {% include theme-toggle.html %}
-
-      <button class="navbar-toggler border-0 ms-1" type="button"
+      <button class="navbar-toggler" type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarMain"
               aria-controls="navbarMain"
@@ -21,8 +20,8 @@
     </div>
 
     <!-- Collapsible nav links -->
-    <div class="collapse navbar-collapse flex-grow-0" id="navbarMain">
-      <ul class="navbar-nav ms-3 align-items-md-center">
+    <div class="collapse navbar-collapse" id="navbarMain">
+      <ul class="navbar-nav ms-auto align-items-md-center">
         {% for item in site.data.navigation %}
         <li class="nav-item">
           <a class="nav-link{% if page.url == item.url %} active{% endif %}"
@@ -33,6 +32,10 @@
         </li>
         {% endfor %}
       </ul>
+      <!-- Theme toggle on desktop only -->
+      <div class="d-none d-md-flex align-items-center ms-2">
+        {% include theme-toggle.html %}
+      </div>
     </div>
 
   </div>

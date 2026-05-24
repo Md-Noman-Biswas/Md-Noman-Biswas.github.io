@@ -2,8 +2,8 @@
   background-color: var(--bg-navbar) !important;
   box-shadow: var(--navbar-shadow);
   transition: background-color $theme-transition, box-shadow $theme-transition;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 
   .navbar-brand {
     color: var(--text-primary) !important;
@@ -11,6 +11,14 @@
     font-weight: 600;
     letter-spacing: -0.01em;
     transition: color $theme-transition;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 55vw;
+
+    @media (min-width: $breakpoint-md) {
+      max-width: none;
+    }
 
     &:hover {
       color: var(--accent) !important;
@@ -21,9 +29,12 @@
   .nav-link {
     color: var(--text-secondary) !important;
     font-size: 0.88rem;
-    padding: 0.35rem 0.75rem !important;
+    padding: 0.5rem 0.75rem !important;
     border-radius: 6px;
     transition: color $theme-transition, background-color $theme-transition;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
 
     &:hover {
       color: var(--text-primary) !important;
@@ -37,10 +48,35 @@
     }
   }
 
+  // Mobile collapsed menu styles
+  .navbar-collapse {
+    @media (max-width: #{$breakpoint-md - 1}) {
+      background-color: var(--bg-navbar);
+      border-top: 1px solid var(--border-color);
+      margin-top: 0.5rem;
+      padding: 0.5rem 0;
+
+      .nav-item {
+        border-bottom: 1px solid var(--border-color);
+
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+
+      .nav-link {
+        padding: 0.75rem 1rem !important;
+        border-radius: 0;
+      }
+    }
+  }
+
   .navbar-toggler {
     border: 1px solid var(--border-color);
     border-radius: 6px;
     padding: 0.3rem 0.5rem;
+    min-width: 44px;
+    min-height: 44px;
 
     &:focus {
       box-shadow: none;
@@ -48,19 +84,21 @@
   }
 }
 
-// Fix hamburger icon color in dark mode
+// Fix hamburger icon in dark mode
 html[data-theme="dark"] #main-navbar .navbar-toggler-icon {
   filter: invert(1);
 }
 
-// Theme toggle button — clean icon only
+// Theme toggle button
 .theme-toggle-btn {
   color: var(--text-secondary);
   background: transparent;
   border: none;
   border-radius: 50%;
-  width: 2.1rem;
-  height: 2.1rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  min-width: 44px;
+  min-height: 44px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,9 +108,8 @@ html[data-theme="dark"] #main-navbar .navbar-toggler-icon {
   transition: color $theme-transition, background-color $theme-transition;
   padding: 0;
 
-  i {
-    pointer-events: none;
-  }
+  i { pointer-events: none; }
+  svg { pointer-events: none; }
 
   &:hover {
     color: var(--accent);

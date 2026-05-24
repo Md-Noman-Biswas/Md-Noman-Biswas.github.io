@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+// Prevent horizontal scroll on all screens
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 html {
   scroll-behavior: smooth;
 }
