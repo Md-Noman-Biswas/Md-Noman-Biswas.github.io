@@ -2,7 +2,7 @@
 layout: page
 title: CV
 permalink: /cv/
-description: "Curriculum Vitae — Md Noman Biswas Sibly"
+description: "Curriculum Vitae — Md. Noman Biswas Sibly"
 ---
 
 <div class="cv-page">
@@ -17,7 +17,7 @@ description: "Curriculum Vitae — Md Noman Biswas Sibly"
 
   <iframe class="cv-embed"
           src="{{ '/assets/pdf/resume_Md._Noman_Biswas_Sibly.pdf' | relative_url }}"
-          title="Md Noman Biswas Sibly — CV">
+          title="Md. Noman Biswas Sibly — CV">
     <div class="cv-fallback">
       <p>
         Your browser does not support PDF embedding.<br>

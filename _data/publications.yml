@@ -3,7 +3,7 @@
 - id: cnn-review
   title: "A Comprehensive Review of Convolutional Neural Networks: Foundations, Enhancements, and Applications"
   authors:
-    - name: Md Noman Biswas Sibly
+    - name: Md. Noman Biswas Sibly
       is_me: true
     - name: et al.
       is_me: false
@@ -23,7 +23,7 @@
 - id: gallbladder-unet-vit
   title: "Noise-Robust Gallbladder Ultrasound Image Classification Using U-Net GAN Denoising and Vision Transformer"
   authors:
-    - name: Md Noman Biswas Sibly
+    - name: Md. Noman Biswas Sibly
       is_me: true
     - name: et al.
       is_me: false
@@ -45,7 +45,7 @@
 - id: jtadc-net
   title: "JTADC-Net: An Adversarial Joint Task-Aware Denoising and Classification Network for Noise Robust Gallbladder Disease Diagnosis"
   authors:
-    - name: Md Noman Biswas Sibly
+    - name: Md. Noman Biswas Sibly
       is_me: true
     - name: et al.
       is_me: false
@@ -67,7 +67,7 @@
 - id: trustworthy-ai-thesis
   title: "TrustWorthy AI — Undergraduate Thesis"
   authors:
-    - name: Md Noman Biswas Sibly
+    - name: Md. Noman Biswas Sibly
       is_me: true
   year: 2026
   venue: "RUET Undergraduate Thesis"

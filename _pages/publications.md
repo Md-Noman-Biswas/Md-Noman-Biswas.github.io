@@ -2,7 +2,7 @@
 layout: page
 title: Publications
 permalink: /publications/
-description: "Research papers and manuscripts by Md Noman Biswas Sibly"
+description: "Research papers and manuscripts by Md. Noman Biswas Sibly"
 ---
 
 <div class="publications-page">
@@ -41,6 +41,6 @@ description: "Research papers and manuscripts by Md Noman Biswas Sibly"
 
 <p class="text-muted" style="font-size: 0.85rem;">
   <i class="fa-solid fa-circle-info me-1"></i>
-  Authors with <strong>bold</strong> name indicate Md Noman Biswas Sibly as the author.
+  Authors with <strong>bold</strong> name indicate Md. Noman Biswas Sibly as the author.
   DOI, PDF, and arXiv links will be added upon publication.
 </p>
