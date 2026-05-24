@@ -31,7 +31,7 @@ description: "Selected software and research projects"
            class="btn-project btn-github" target="_blank" rel="noopener">
           <i class="fa-brands fa-github me-1"></i>GitHub
         </a>
-        <a href="#" class="btn-project btn-demo" target="_blank" rel="noopener">
+        <a href="https://gallbladder-classifier.vercel.app/" class="btn-project btn-demo" target="_blank" rel="noopener">
           <i class="fa-solid fa-play me-1"></i>Live Demo
         </a>
       </div>
