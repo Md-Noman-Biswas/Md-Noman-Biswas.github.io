@@ -8,14 +8,14 @@ layout: default
     <!-- Left: profile card -->
     <div class="col-12 col-md-3 profile-left">
       <img src="{{ '/assets/img/profile_photo.jpg' | relative_url }}"
-           alt="{{ site.author.name }}"
+           alt="{{ site.data.profile.name }}"
            class="profile-photo"
            onerror="this.style.display='none'">
-      <p class="profile-name">{{ site.author.name }}</p>
-      <p class="profile-position">{{ site.author.position }}</p>
+      <p class="profile-name">{{ site.data.profile.name }}</p>
+      <p class="profile-position">{{ site.data.profile.position }}</p>
       <p class="profile-location">
         <i class="fa-solid fa-location-dot"></i>
-        {{ site.author.location }}
+        {{ site.data.profile.location }}
       </p>
       {% include social-links.html %}
     </div>

@@ -1,0 +1,43 @@
+# Projects — edited from the admin panel (/admin/).
+# Each item: title, Font Awesome icon class, description, tags, and links.
+- title: Gallbladder Disease Classifier
+  icon: "fa-solid fa-microscope"
+  description: >-
+    Deep learning web application for gallbladder disease classification from ultrasound images.
+    Integrates GAN-based denoising with a Streamlit interface for real-time predictions.
+    Related to my accepted QPAIN 2026 paper.
+  tags:
+    - Python
+    - TensorFlow
+    - Streamlit
+    - GAN
+    - Computer Vision
+  github: "https://github.com/Md-Noman-Biswas/Gallbladder-Classifier"
+  demo: "https://gallbladder-classifier.vercel.app/"
+
+- title: ATmega Neural Network — Digit Recognition
+  icon: "fa-solid fa-microchip"
+  description: >-
+    A lightweight neural network implemented entirely in Embedded C and deployed on an ATmega
+    microcontroller. Classifies handwritten digits from a custom 4×4 dataset entirely on-device,
+    with no OS or ML framework.
+  tags:
+    - Embedded C
+    - Python
+    - ATmega
+    - Edge AI
+  github: "https://github.com/Md-Noman-Biswas/ATmega-NeuralNetwork-DigitRecognizer"
+  demo: ""
+
+- title: Football Club Logo Detection
+  icon: "fa-solid fa-futbol"
+  description: >-
+    Real-time football club logo detection and classification using YOLOv8 object detection.
+    Covers custom dataset preparation, annotation, training, and an end-to-end inference pipeline.
+  tags:
+    - Python
+    - YOLOv8
+    - Object Detection
+    - Computer Vision
+  github: "https://github.com/Md-Noman-Biswas/Football-Club-Detection"
+  demo: ""

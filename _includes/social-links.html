@@ -1,30 +1,30 @@
 <div class="social-links">
-  {% if site.author.email %}
-  <a href="mailto:{{ site.author.email }}" class="social-link" title="Email">
+  {% if site.data.profile.email %}
+  <a href="mailto:{{ site.data.profile.email }}" class="social-link" title="Email">
     <i class="fa-solid fa-envelope"></i>
   </a>
   {% endif %}
 
-  {% if site.author.github %}
-  <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener" class="social-link" title="GitHub">
+  {% if site.data.profile.github %}
+  <a href="https://github.com/{{ site.data.profile.github }}" target="_blank" rel="noopener" class="social-link" title="GitHub">
     <i class="fa-brands fa-github"></i>
   </a>
   {% endif %}
 
-  {% if site.author.linkedin %}
-  <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" target="_blank" rel="noopener" class="social-link" title="LinkedIn">
+  {% if site.data.profile.linkedin %}
+  <a href="https://www.linkedin.com/in/{{ site.data.profile.linkedin }}/" target="_blank" rel="noopener" class="social-link" title="LinkedIn">
     <i class="fa-brands fa-linkedin-in"></i>
   </a>
   {% endif %}
 
-  {% if site.author.google_scholar and site.author.google_scholar != "" %}
-  <a href="https://scholar.google.com/citations?user={{ site.author.google_scholar }}" target="_blank" rel="noopener" class="social-link" title="Google Scholar">
+  {% if site.data.profile.google_scholar and site.data.profile.google_scholar != "" %}
+  <a href="https://scholar.google.com/citations?user={{ site.data.profile.google_scholar }}" target="_blank" rel="noopener" class="social-link" title="Google Scholar">
     <i class="ai ai-google-scholar"></i>
   </a>
   {% endif %}
 
-  {% if site.author.orcid and site.author.orcid != "" %}
-  <a href="https://orcid.org/{{ site.author.orcid }}" target="_blank" rel="noopener" class="social-link" title="ORCID">
+  {% if site.data.profile.orcid and site.data.profile.orcid != "" %}
+  <a href="https://orcid.org/{{ site.data.profile.orcid }}" target="_blank" rel="noopener" class="social-link" title="ORCID">
     <i class="ai ai-orcid"></i>
   </a>
   {% endif %}

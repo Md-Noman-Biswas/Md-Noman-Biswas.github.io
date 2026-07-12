@@ -1,0 +1,10 @@
+# Recent news — edited from the admin panel (/admin/).
+# Each item: a short date label + text (basic HTML like <strong>/<em> allowed).
+- date: "2026"
+  text: "Submitted first-author paper <strong>JTADC-Net</strong> to <em>Biomedical Signal Processing and Control</em> (Elsevier, Q1) — currently under review."
+- date: "May 2026"
+  text: "Paper accepted at <strong>QPAIN 2026</strong> — \"Noise-Robust Gallbladder Ultrasound Image Classification Using U-Net GAN Denoising and Vision Transformer\"."
+- date: "2025"
+  text: "Co-authored paper accepted in <strong>Neural Computing and Applications</strong> (Springer, Q1, IF 5.102) — a comprehensive review of CNNs."
+- date: "2022"
+  text: "Enrolled in B.Sc. ECE program at <strong>Rajshahi University of Engineering &amp; Technology</strong>."
