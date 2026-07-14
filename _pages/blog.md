@@ -6,7 +6,7 @@ description: "Notes on AI research, machine learning, and competitive programmin
 ---
 
 <div class="blog-list">
-  {% for post in paginator.posts %}
+  {% for post in site.posts %}
   <article class="blog-preview">
     <h3>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -30,35 +30,7 @@ description: "Notes on AI research, machine learning, and competitive programmin
   </article>
   {% endfor %}
 
-  {% if paginator.total_posts == 0 %}
+  {% if site.posts.size == 0 %}
   <p class="text-muted">No posts yet — check back soon!</p>
   {% endif %}
 </div>
-
-{% if paginator.total_pages > 1 %}
-<nav class="blog-pagination" aria-label="Blog pages">
-  <ul class="pagination">
-    {% if paginator.previous_page %}
-    <li class="page-item">
-      <a class="page-link" href="{{ paginator.previous_page_path | relative_url }}">
-        <i class="fa-solid fa-chevron-left me-1"></i>Newer
-      </a>
-    </li>
-    {% endif %}
-
-    <li class="page-item disabled">
-      <span class="page-link">
-        Page {{ paginator.page }} of {{ paginator.total_pages }}
-      </span>
-    </li>
-
-    {% if paginator.next_page %}
-    <li class="page-item">
-      <a class="page-link" href="{{ paginator.next_page_path | relative_url }}">
-        Older<i class="fa-solid fa-chevron-right ms-1"></i>
-      </a>
-    </li>
-    {% endif %}
-  </ul>
-</nav>
-{% endif %}

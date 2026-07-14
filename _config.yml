@@ -45,10 +45,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-paginate
 
-paginate: 5
-paginate_path: "/blog/page:num/"
+# No pagination: the blog page lists site.posts directly. jekyll-paginate only
+# works on a file named index.html, so it silently did nothing here.
 markdown: kramdown
 highlighter: rouge
 kramdown:
