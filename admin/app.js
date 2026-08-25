@@ -616,7 +616,7 @@
   }
 
   /* =========================== Publications ============================= */
-  var PUB_STATUS = [["accepted", "Accepted / Published"], ["under_review", "Under Review"],
+  var PUB_STATUS = [["published", "Published"], ["accepted", "Accepted"], ["under_review", "Under Review"],
                     ["in_preparation", "In Preparation"], ["ongoing", "Ongoing"]];
   var PUB_ROLE = [["", "—"], ["First author", "First author"], ["Co-author", "Co-author"]];
   function slugify(s) {

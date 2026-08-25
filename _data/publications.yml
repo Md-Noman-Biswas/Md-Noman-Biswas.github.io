@@ -43,22 +43,34 @@
     code: ""
 
 - id: cnn-review
-  title: "A Comprehensive Review of Convolutional Neural Networks: Foundations, Enhancements, and Applications"
+  title: "A comprehensive review of convolutional neural networks: foundations, enhancements and applications"
   authors:
-    - name: et al.
+    - name: Md. Himel Reza
       is_me: false
     - name: Md. Noman Biswas Sibly
       is_me: true
-  year: 2025
-  venue: "Neural Computing and Applications"
+    - name: Shaikh Golam Rabbani
+      is_me: false
+    - name: Shafayetul Huda Sadi
+      is_me: false
+    - name: Md. Faysal Ahamed
+      is_me: false
+    - name: Fariya Bintay Shafi
+      is_me: false
+    - name: Rusab Sarmun
+      is_me: false
+    - name: Muhammad E. H. Chowdhury
+      is_me: false
+  year: 2026
+  venue: "Neural Computing and Applications, 38(4), Article 56"
   publisher: "Springer"
   journal: true
   quartile: "Q1"
   impact_factor: "5.102"
   role: "Co-author"
-  status: accepted
+  status: published
   links:
-    doi: ""
+    doi: "https://doi.org/10.1007/s00521-025-11827-w"
     pdf: ""
     arxiv: ""
     code: ""

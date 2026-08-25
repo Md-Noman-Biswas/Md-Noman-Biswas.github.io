@@ -29,7 +29,9 @@
     </p>
 
     <div class="pub-meta">
-      {% if include.pub.status == "accepted" %}
+      {% if include.pub.status == "published" %}
+        <span class="status-badge badge-accepted">&#10003;&nbsp;Published</span>
+      {% elsif include.pub.status == "accepted" %}
         <span class="status-badge badge-accepted">&#10003;&nbsp;Accepted</span>
       {% elsif include.pub.status == "under_review" %}
         <span class="status-badge badge-review">&#9711;&nbsp;Under Review</span>

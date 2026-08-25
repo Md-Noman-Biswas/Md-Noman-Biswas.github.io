@@ -9,7 +9,7 @@ description: "Research papers and manuscripts by Md. Noman Biswas Sibly"
      inside a block-level HTML element, so "## …" would render literally here. -->
 <div class="publications-page">
 
-{% assign accepted_pubs = site.data.publications | where: "status", "accepted" %}
+{% assign accepted_pubs = site.data.publications | where_exp: "p", "p.status == 'published' or p.status == 'accepted'" %}
 {% assign review_pubs   = site.data.publications | where: "status", "under_review" %}
 {% assign prep_pubs     = site.data.publications | where: "status", "in_preparation" %}
 {% assign ongoing_pubs  = site.data.publications | where: "status", "ongoing" %}

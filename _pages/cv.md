@@ -46,13 +46,19 @@ HSC, Science &middot; GPA **5.00 / 5.00**
 
 ## Research
 
+**Published**
+
+- Reza, M. H., **Sibly, M. N. B.**, Rabbani, S. G., Sadi, S. H., Ahamed, M. F., Shafi, F. B.,
+  Sarmun, R., & Chowdhury, M. E. H. (2026). "A comprehensive review of convolutional neural
+  networks: foundations, enhancements and applications." *Neural Computing and Applications*,
+  38(4), Article 56. (Springer, Q1, IF 5.102)
+  [DOI](https://doi.org/10.1007/s00521-025-11827-w)
+
 **Accepted**
 
 - *First author* — "Which Reliability Signal to Trust? Output vs. Representation Space Uncertainty
   Under Distribution Shift in Pathology Foundation Models", **MI4MedFM Workshop, MICCAI 2026**.
   [Code](https://github.com/shadril238/trustshift-pfm)
-- *Co-author* — "A Comprehensive Review of Convolutional Neural Networks: Foundations,
-  Enhancements, and Applications", **Neural Computing and Applications** (Springer, Q1, IF 5.102).
 - *First author* — "Noise-Robust Gallbladder Ultrasound Image Classification Using U-Net GAN
   Denoising and Vision Transformer", **QPAIN 2026**.
 
