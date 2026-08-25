@@ -461,12 +461,22 @@
             fld("ORCID", "orcid", d.orcid) +
           "</div>" +
         "</div>" +
+        '<div class="card"><b>' + ic("file") + "Google Scholar metrics</b>" +
+          '<p class="field-hint" style="margin:.4rem 0 .8rem">Scholar has no public API, so these are a manual snapshot shown on your Publications page. Clear the citations field to hide the whole line.</p>' +
+          '<div class="grid-2">' +
+            fld("Citations", "scholar_citations", d.scholar_citations) +
+            fld("h-index", "scholar_hindex", d.scholar_hindex) +
+            fld("i10-index", "scholar_i10", d.scholar_i10) +
+            fld("As of (e.g. August 2026)", "scholar_updated", d.scholar_updated) +
+          "</div>" +
+        "</div>" +
         '<div class="card">' +
           txt("Bio (Markdown)", "bio", d.bio, "The intro paragraphs on your home page.") +
           txt('"Seeking" callout (Markdown)', "seeking", d.seeking, "The highlighted box under your bio.") +
         "</div>";
       bindSave(view.querySelector("#save"), function () {
-        ["name", "position", "institution", "location", "email", "github", "linkedin", "google_scholar", "orcid", "bio", "seeking"]
+        ["name", "position", "institution", "location", "email", "github", "linkedin", "google_scholar", "orcid",
+         "scholar_citations", "scholar_hindex", "scholar_i10", "scholar_updated", "bio", "seeking"]
           .forEach(function (k) { d[k] = view.querySelector('[data-k="' + k + '"]').value; });
         return saveText("_data/profile.yml", dumpYaml(d), defaultCommitMsg("profile"), f.sha);
       }, "Profile");

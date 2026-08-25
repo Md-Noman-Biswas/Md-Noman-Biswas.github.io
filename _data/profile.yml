@@ -9,6 +9,13 @@ github: Md-Noman-Biswas
 linkedin: md-noman-biswas-sibly
 google_scholar: "S3WB61EAAAAJ"
 orcid: ""
+# Google Scholar metrics. These are a manual snapshot — Scholar has no public
+# API, so update them from the admin panel when they change. Leave
+# scholar_citations empty to hide the metrics line on the Publications page.
+scholar_citations: "19"
+scholar_hindex: "1"
+scholar_i10: "1"
+scholar_updated: "August 2026"
 bio: |
   I am a final-year **B.Sc. student in Electrical and Computer Engineering** at [Rajshahi University of Engineering & Technology (RUET)](https://www.ruet.ac.bd/), Bangladesh. My research sits at the intersection of **Trustworthy AI**, deep learning, and computer vision — with a focus on building reliable, interpretable AI systems for high-stakes domains such as medical imaging.
 

@@ -1,3 +1,42 @@
+// Google Scholar snapshot above the publication list. Values come from
+// _data/profile.yml and are hand-updated, hence the "as of" stamp.
+.scholar-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1.1rem;
+  padding: 0.7rem 0.95rem;
+  margin-bottom: 1.6rem;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background-color: var(--code-bg);
+  font-size: 0.87rem;
+
+  .scholar-link {
+    font-weight: 600;
+    white-space: nowrap;
+
+    .ai { margin-right: 0.25rem; }
+  }
+
+  .scholar-stat {
+    color: var(--text-secondary);
+    white-space: nowrap;
+
+    b {
+      color: var(--text-primary);
+      font-weight: 700;
+    }
+  }
+
+  .scholar-asof {
+    color: var(--text-secondary);
+    font-size: 0.78rem;
+    margin-left: auto;
+    white-space: nowrap;
+  }
+}
+
 .publications-page {
   h2 {
     font-size: 1rem;

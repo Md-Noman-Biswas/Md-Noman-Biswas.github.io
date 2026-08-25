@@ -5,6 +5,25 @@ permalink: /publications/
 description: "Research papers and manuscripts by Md. Noman Biswas Sibly"
 ---
 
+{% assign p = site.data.profile %}
+{% if p.scholar_citations and p.scholar_citations != "" and p.google_scholar and p.google_scholar != "" %}
+<div class="scholar-metrics">
+  <a href="https://scholar.google.com/citations?user={{ p.google_scholar }}" target="_blank" rel="noopener" class="scholar-link">
+    <i class="ai ai-google-scholar"></i> Google Scholar
+  </a>
+  <span class="scholar-stat"><b>{{ p.scholar_citations }}</b> citations</span>
+  {% if p.scholar_hindex and p.scholar_hindex != "" %}
+    <span class="scholar-stat"><b>{{ p.scholar_hindex }}</b> h-index</span>
+  {% endif %}
+  {% if p.scholar_i10 and p.scholar_i10 != "" %}
+    <span class="scholar-stat"><b>{{ p.scholar_i10 }}</b> i10-index</span>
+  {% endif %}
+  {% if p.scholar_updated and p.scholar_updated != "" %}
+    <span class="scholar-asof">as of {{ p.scholar_updated }}</span>
+  {% endif %}
+</div>
+{% endif %}
+
 <!-- Headings below are raw <h2> on purpose: kramdown does not parse Markdown
      inside a block-level HTML element, so "## …" would render literally here. -->
 <div class="publications-page">
