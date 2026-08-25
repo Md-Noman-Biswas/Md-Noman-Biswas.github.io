@@ -616,7 +616,9 @@
   }
 
   /* =========================== Publications ============================= */
-  var PUB_STATUS = [["accepted", "Accepted / Published"], ["under_review", "Under Review"], ["ongoing", "Ongoing"]];
+  var PUB_STATUS = [["accepted", "Accepted / Published"], ["under_review", "Under Review"],
+                    ["in_preparation", "In Preparation"], ["ongoing", "Ongoing"]];
+  var PUB_ROLE = [["", "—"], ["First author", "First author"], ["Co-author", "Co-author"]];
   function slugify(s) {
     return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) || "pub";
   }
@@ -634,6 +636,7 @@
           p.quartile = it.querySelector("[data-quartile]").value;
           p.impact_factor = it.querySelector("[data-if]").value;
           p.status = it.querySelector("[data-status]").value;
+          p.role = it.querySelector("[data-role]").value;
           var type = it.querySelector("[data-type]").value;
           delete p.journal; delete p.conference;
           if (type === "journal") p.journal = true;
@@ -673,8 +676,12 @@
                 '<div class="field"><label class="lbl">Quartile</label><input type="text" data-quartile value="' + esc(p.quartile) + '" placeholder="Q1"></div>' +
                 '<div class="field"><label class="lbl">Impact factor</label><input type="text" data-if value="' + esc(p.impact_factor) + '"></div>' +
               "</div>" +
-              '<div class="field"><label class="lbl">Status</label><select data-status>' +
-                PUB_STATUS.map(function (s) { return opt(s[0], s[1], p.status); }).join("") + "</select></div>" +
+              '<div class="grid-2">' +
+                '<div class="field"><label class="lbl">Status</label><select data-status>' +
+                  PUB_STATUS.map(function (s) { return opt(s[0], s[1], p.status); }).join("") + "</select></div>" +
+                '<div class="field"><label class="lbl">Your role</label><select data-role>' +
+                  PUB_ROLE.map(function (r) { return opt(r[0], r[1], p.role || ""); }).join("") + "</select></div>" +
+              "</div>" +
               '<div class="grid-2">' +
                 '<div class="field"><label class="lbl">DOI URL</label><input type="url" data-doi value="' + esc(links.doi) + '"></div>' +
                 '<div class="field"><label class="lbl">PDF URL</label><input type="url" data-pdf value="' + esc(links.pdf) + '"></div>' +
@@ -687,7 +694,7 @@
           arr.push({
             id: "pub-" + (arr.length + 1), title: "New publication",
             authors: [{ name: user.name, is_me: true }], year: new Date().getFullYear(),
-            venue: "", publisher: "", status: "ongoing", quartile: "", impact_factor: "",
+            venue: "", publisher: "", status: "ongoing", role: "", quartile: "", impact_factor: "",
             links: { doi: "", pdf: "", arxiv: "", code: "" }
           });
           setDirty(true); render();
@@ -708,7 +715,7 @@
   function numOr(v, dflt) { var n = parseInt(v, 10); return isNaN(n) ? dflt : n; }
 
   /* ================================ CV ================================== */
-  var CV_PDF = "assets/pdf/resume_Md._Noman_Biswas_Sibly.pdf";
+  var CV_PDF = "assets/pdf/Md_Noman_Biswas_Sibly_CV.pdf";
   var PHOTO  = "assets/img/profile_photo.jpg";
 
   function viewCV(view) {

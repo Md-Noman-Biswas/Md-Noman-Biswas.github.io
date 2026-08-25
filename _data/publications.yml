@@ -1,24 +1,25 @@
 # ── Accepted ──────────────────────────────────────────────────────────────────
 
-- id: cnn-review
-  title: "A Comprehensive Review of Convolutional Neural Networks: Foundations, Enhancements, and Applications"
+- id: trustshift-pfm
+  title: "Which Reliability Signal to Trust? Output vs. Representation Space Uncertainty Under Distribution Shift in Pathology Foundation Models"
   authors:
     - name: Md. Noman Biswas Sibly
       is_me: true
     - name: et al.
       is_me: false
-  year: 2025
-  venue: "Neural Computing and Applications"
-  publisher: "Springer"
-  journal: true
-  quartile: "Q1"
-  impact_factor: "5.102"
+  year: 2026
+  venue: "MI4MedFM Workshop, MICCAI 2026"
+  publisher: ""
+  conference: true
+  quartile: ""
+  impact_factor: ""
+  role: "First author"
   status: accepted
   links:
     doi: ""
     pdf: ""
     arxiv: ""
-    code: ""
+    code: "https://github.com/shadril238/trustshift-pfm"
 
 - id: gallbladder-unet-vit
   title: "Noise-Robust Gallbladder Ultrasound Image Classification Using U-Net GAN Denoising and Vision Transformer"
@@ -33,6 +34,7 @@
   conference: true
   quartile: ""
   impact_factor: ""
+  role: "First author"
   status: accepted
   links:
     doi: ""
@@ -40,7 +42,28 @@
     arxiv: ""
     code: ""
 
-# ── Under Review ───────────────────────────────────────────────────────────────
+- id: cnn-review
+  title: "A Comprehensive Review of Convolutional Neural Networks: Foundations, Enhancements, and Applications"
+  authors:
+    - name: et al.
+      is_me: false
+    - name: Md. Noman Biswas Sibly
+      is_me: true
+  year: 2025
+  venue: "Neural Computing and Applications"
+  publisher: "Springer"
+  journal: true
+  quartile: "Q1"
+  impact_factor: "5.102"
+  role: "Co-author"
+  status: accepted
+  links:
+    doi: ""
+    pdf: ""
+    arxiv: ""
+    code: ""
+
+# ── In preparation ─────────────────────────────────────────────────────────────
 
 - id: jtadc-net
   title: "JTADC-Net: An Adversarial Joint Task-Aware Denoising and Classification Network for Noise Robust Gallbladder Disease Diagnosis"
@@ -49,23 +72,23 @@
       is_me: true
     - name: et al.
       is_me: false
-  year: 2025
-  venue: "Biomedical Signal Processing and Control (BSPC)"
-  publisher: "Elsevier"
-  journal: true
-  quartile: "Q1"
+  year: 2026
+  venue: "Joint adversarial denoising and classification for noise-robust gallbladder diagnosis"
+  publisher: ""
+  quartile: ""
   impact_factor: ""
-  status: under_review
+  role: "First author"
+  status: in_preparation
   links:
     doi: ""
     pdf: ""
     arxiv: ""
-    code: ""
+    code: "https://github.com/Md-Noman-Biswas/JTADC-Net"
 
 # ── Ongoing ────────────────────────────────────────────────────────────────────
 
 - id: trustworthy-ai-thesis
-  title: "TrustWorthy AI — Undergraduate Thesis"
+  title: "Trustworthy AI in Healthcare — Undergraduate Thesis"
   authors:
     - name: Md. Noman Biswas Sibly
       is_me: true

@@ -1,30 +1,45 @@
 # Projects — edited from the admin panel (/admin/).
 # Each item: title, Font Awesome icon class, description, tags, and links.
-- title: Gallbladder Disease Classifier
+- title: JTADC-Net — Noise-Robust Gallbladder Disease Classification
   icon: "fa-solid fa-microscope"
   description: >-
-    Deep learning web application for gallbladder disease classification from ultrasound images.
-    Integrates GAN-based denoising with a Streamlit interface for real-time predictions.
-    Related to my accepted QPAIN 2026 paper.
+    A GAN-assisted Vision Transformer framework for robust gallbladder ultrasound classification
+    under noisy acquisition conditions, packaged as a real-time medical image classification web
+    app with deployment support. Basis of my first-author manuscript of the same name.
   tags:
     - Python
     - TensorFlow
-    - Streamlit
+    - Vision Transformer
     - GAN
-    - Computer Vision
-  github: "https://github.com/Md-Noman-Biswas/Gallbladder-Classifier"
+    - Medical Imaging
+  github: "https://github.com/Md-Noman-Biswas/JTADC-Net"
   demo: "https://gallbladder-classifier.vercel.app/"
 
-- title: ATmega Neural Network — Digit Recognition
+- title: TruthLayer-Gemma4 — Trustworthy Vision-Language AI
+  icon: "fa-solid fa-shield-halved"
+  description: >-
+    Exploration of reliability, hallucination reduction, and verification strategies in multimodal
+    vision-language systems, investigating trustworthy AI methods for safer and more interpretable
+    inference.
+  tags:
+    - Python
+    - Vision-Language Models
+    - Trustworthy AI
+    - Hallucination Detection
+  github: "https://github.com/Md-Noman-Biswas/truthlayer-gemma4"
+  demo: ""
+
+- title: ATmega Neural Network — Digit Recognizer
   icon: "fa-solid fa-microchip"
   description: >-
-    A lightweight neural network implemented entirely in Embedded C and deployed on an ATmega
-    microcontroller. Classifies handwritten digits from a custom 4×4 dataset entirely on-device,
-    with no OS or ML framework.
+    A lightweight neural network for digit classification running on an ATmega microcontroller,
+    built with optimized integer computation and memory-efficient TinyML inference pipelines for
+    constrained embedded environments — no OS, no ML framework.
   tags:
     - Embedded C
     - Python
     - ATmega
+    - TinyML
     - Edge AI
   github: "https://github.com/Md-Noman-Biswas/ATmega-NeuralNetwork-DigitRecognizer"
   demo: ""

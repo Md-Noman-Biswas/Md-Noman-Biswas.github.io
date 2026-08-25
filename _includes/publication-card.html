@@ -33,8 +33,13 @@
         <span class="status-badge badge-accepted">&#10003;&nbsp;Accepted</span>
       {% elsif include.pub.status == "under_review" %}
         <span class="status-badge badge-review">&#9711;&nbsp;Under Review</span>
+      {% elsif include.pub.status == "in_preparation" %}
+        <span class="status-badge badge-review">&#9998;&nbsp;In Preparation</span>
       {% elsif include.pub.status == "ongoing" %}
         <span class="status-badge badge-ongoing">&#9654;&nbsp;Ongoing</span>
+      {% endif %}
+      {% if include.pub.role and include.pub.role != "" %}
+        <span class="status-badge badge-role">{{ include.pub.role }}</span>
       {% endif %}
     </div>
 

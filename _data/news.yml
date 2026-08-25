@@ -1,16 +1,14 @@
+# Recent news — edited from the admin panel (/admin/).
+# Each item: a short date label + text (basic HTML like <strong>/<em> allowed).
 - date: "2026"
-  text: |-
-    First Author, <strong>“Which Reliability Signal to Trust? Output vs. Representation Space Uncertainty
-    Under Distribution Shift in Pathology Foundation Models”,</strong> accepted at MI4MedFM Workshop,
-    MICCAI 2026.
+  text: "First-author paper accepted at the <strong>MI4MedFM Workshop, MICCAI 2026</strong> — \"Which Reliability Signal to Trust? Output vs. Representation Space Uncertainty Under Distribution Shift in Pathology Foundation Models\"."
 - date: "2026"
-  text: |-
-    First Author, <strong>“JTADC-Net: An Adversarial Joint Task-Aware Denoising and Classification Net
-    work for Noise Robust Gallbladder Disease Diagnosis”</strong> — joint adversarial denoising and classifi
-    cation for noise-robust gallbladder diagnosis.
-- date: May 2026
-  text: Paper accepted at <strong>QPAIN 2026</strong> — "Noise-Robust Gallbladder Ultrasound Image Classification Using U-Net GAN Denoising and Vision Transformer".
+  text: "Joined the <strong>ELITE Research Lab</strong> as a part-time Research Assistant, working on <em>mechanistic interpretability</em> of neural networks."
+- date: "2026"
+  text: "Preparing first-author manuscript <strong>JTADC-Net</strong> — an adversarial joint task-aware denoising and classification network for noise-robust gallbladder disease diagnosis."
+- date: "May 2026"
+  text: "Paper accepted at <strong>QPAIN 2026</strong> — \"Noise-Robust Gallbladder Ultrasound Image Classification Using U-Net GAN Denoising and Vision Transformer\"."
 - date: "2025"
-  text: Co-authored paper accepted in <strong>Neural Computing and Applications</strong> (Springer, Q1, IF 5.102) — a comprehensive review of CNNs.
+  text: "Co-authored paper accepted in <strong>Neural Computing and Applications</strong> (Springer, Q1, IF 5.102) — a comprehensive review of CNNs."
 - date: "2022"
-  text: Enrolled in B.Sc. ECE program at <strong>Rajshahi University of Engineering &amp; Technology</strong>.
+  text: "Enrolled in B.Sc. ECE program at <strong>Rajshahi University of Engineering &amp; Technology</strong>."

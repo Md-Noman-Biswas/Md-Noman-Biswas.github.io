@@ -1,7 +1,9 @@
 # Research interests — edited from the admin panel (/admin/).
 # A simple ordered list of strings shown on the About page.
 - Trustworthy &amp; Explainable AI (XAI)
-- Deep Learning &amp; Computer Vision
+- Uncertainty Quantification &amp; Reliability Under Distribution Shift
+- Mechanistic Interpretability of Neural Networks
 - Medical Image Analysis &amp; AI-driven Diagnostics
 - Vision–Language Models &amp; Generative AI
-- Embedded AI &amp; Edge Inference
+- Deep Learning &amp; Computer Vision
+- Embedded AI &amp; Edge Inference (TinyML)

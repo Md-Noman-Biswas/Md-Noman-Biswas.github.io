@@ -3,15 +3,17 @@
 name: Md. Noman Biswas Sibly
 position: B.Sc. in Electrical and Computer Engineering, RUET
 institution: Rajshahi University of Engineering & Technology
-location: Jhenaidah, Bangladesh
+location: Rajshahi, Bangladesh
 email: mdnomanbiswassibly@gmail.com
 github: Md-Noman-Biswas
 linkedin: md-noman-biswas-sibly
-google_scholar: ""
+google_scholar: "S3WB61EAAAAJ"
 orcid: ""
 bio: |
   I am a final-year **B.Sc. student in Electrical and Computer Engineering** at [Rajshahi University of Engineering & Technology (RUET)](https://www.ruet.ac.bd/), Bangladesh. My research sits at the intersection of **Trustworthy AI**, deep learning, and computer vision — with a focus on building reliable, interpretable AI systems for high-stakes domains such as medical imaging.
 
-  I have hands-on experience in AI-driven medical image analysis, including work on gallbladder disease classification and noise-robust image classification using vision-language models and generative approaches. I also have a strong background in competitive programming (1000+ problems, Pupil on Codeforces) and embedded AI systems.
+  My current work asks **which reliability signals actually hold up under distribution shift** — comparing output-space and representation-space uncertainty in pathology foundation models (MICCAI 2026 workshop) — alongside noise-robust medical image classification with adversarial denoising and vision transformers. As a research assistant at the ELITE Research Lab I also work on **mechanistic interpretability**, making model predictions explainable rather than merely accurate.
+
+  I have a strong competitive programming background (Codeforces Pupil, max rating 1263; ~1,700 problems solved across Codeforces, LeetCode, and VJudge) and experience taking neural networks all the way down to bare-metal microcontrollers.
 seeking: |
   **I am actively seeking research-oriented graduate opportunities (M.S. / Ph.D.)** in intelligent, reliable AI systems. If you are looking for a motivated and research-driven student, feel free to reach out at [mdnomanbiswassibly@gmail.com](mailto:mdnomanbiswassibly@gmail.com).

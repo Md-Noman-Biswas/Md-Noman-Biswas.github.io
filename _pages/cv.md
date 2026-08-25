@@ -9,19 +9,19 @@ description: "Curriculum Vitae — Md. Noman Biswas Sibly"
 
   <div class="cv-header">
     <h2>Curriculum Vitae</h2>
-    <a href="{{ '/assets/pdf/resume_Md._Noman_Biswas_Sibly.pdf' | relative_url }}"
+    <a href="{{ '/assets/pdf/Md_Noman_Biswas_Sibly_CV.pdf' | relative_url }}"
        class="btn-download" download>
       <i class="fa-solid fa-download"></i> Download PDF
     </a>
   </div>
 
   <iframe class="cv-embed"
-          src="{{ '/assets/pdf/resume_Md._Noman_Biswas_Sibly.pdf' | relative_url }}"
+          src="{{ '/assets/pdf/Md_Noman_Biswas_Sibly_CV.pdf' | relative_url }}"
           title="Md. Noman Biswas Sibly — CV">
     <div class="cv-fallback">
       <p>
         Your browser does not support PDF embedding.<br>
-        <a href="{{ '/assets/pdf/resume_Md._Noman_Biswas_Sibly.pdf' | relative_url }}" download>Click here to download the CV</a>.
+        <a href="{{ '/assets/pdf/Md_Noman_Biswas_Sibly_CV.pdf' | relative_url }}" download>Click here to download the CV</a>.
       </p>
     </div>
   </iframe>
@@ -32,21 +32,87 @@ description: "Curriculum Vitae — Md. Noman Biswas Sibly"
 
 ## Summary
 
-Final-year B.Sc. ECE student at RUET with research interests in **Trustworthy AI**, deep learning, and computer vision. Experienced in AI-driven medical image analysis. Actively seeking research-oriented graduate (M.S./Ph.D.) opportunities.
+Final-year B.Sc. ECE student at RUET working on **Trustworthy AI** — uncertainty and reliability
+under distribution shift, mechanistic interpretability, and noise-robust medical image analysis.
+Actively seeking research-oriented graduate (M.S./Ph.D.) opportunities.
 
 ## Education
 
-**Rajshahi University of Engineering & Technology (RUET)**
-B.Sc. in Electrical and Computer Engineering &middot; 2022 – Present &middot; Rajshahi, Bangladesh
+**Rajshahi University of Engineering & Technology (RUET)** &middot; Dec 2022 – Present
+B.Sc. in Electrical and Computer Engineering &middot; CGPA **3.56 / 4.00** (after 6th semester)
 
-*Relevant Coursework:* Machine Learning, Data Structures & Algorithms, DSP, Computer Architecture, Control Systems, Embedded Systems
+**BAF Shaheen College, Jashore** &middot; Jul 2019 – Dec 2021
+HSC, Science &middot; GPA **5.00 / 5.00**
 
-## Skills
+## Research
 
-**Programming:** C, C++, Python, SQL
+**Accepted**
 
-**ML / DL:** TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib, Jupyter Notebook
+- *First author* — "Which Reliability Signal to Trust? Output vs. Representation Space Uncertainty
+  Under Distribution Shift in Pathology Foundation Models", **MI4MedFM Workshop, MICCAI 2026**.
+  [Code](https://github.com/shadril238/trustshift-pfm)
+- *Co-author* — "A Comprehensive Review of Convolutional Neural Networks: Foundations,
+  Enhancements, and Applications", **Neural Computing and Applications** (Springer, Q1, IF 5.102).
+- *First author* — "Noise-Robust Gallbladder Ultrasound Image Classification Using U-Net GAN
+  Denoising and Vision Transformer", **QPAIN 2026**.
 
-**Tools:** Git, Linux, Docker
+**In preparation**
 
-**Other:** Competitive Programming (Pupil on Codeforces, 1000+ problems), Data Analysis, Problem Solving
+- *First author* — "JTADC-Net: An Adversarial Joint Task-Aware Denoising and Classification Network
+  for Noise Robust Gallbladder Disease Diagnosis".
+  [Code](https://github.com/Md-Noman-Biswas/JTADC-Net)
+
+**Ongoing**
+
+- Trustworthy AI in Healthcare (undergraduate thesis).
+
+## Experience
+
+**Research Assistant** (part-time, remote) &middot; ELITE Research Lab &middot; 2026 – Present
+Mechanistic interpretability of neural networks — making predictions explainable.
+
+**AI & ML Trainee** &middot; BDSET &middot; 2025 – 2026
+Applied ML training: preprocessing, model building, tuning, and evaluation (Python, TensorFlow,
+Scikit-learn).
+
+**Programming Mentor** &middot; RUET Analytical Programming Lab &middot; 2024 – 2025
+Taught algorithms and debugging; guided students in competitive programming and contest
+preparation.
+
+## Projects
+
+- **[JTADC-Net — Noise-Robust Gallbladder Disease Classification](https://github.com/Md-Noman-Biswas/JTADC-Net)** (2025) —
+  GAN-assisted ViT framework for robust ultrasound classification under noise, packaged as a
+  real-time medical image classification web app. [Demo](https://gallbladder-classifier.vercel.app/)
+- **[TruthLayer-Gemma4 — Trustworthy Vision-Language AI](https://github.com/Md-Noman-Biswas/truthlayer-gemma4)** (2025) —
+  Reliability, hallucination reduction, and verification strategies in multimodal vision-language
+  systems.
+- **[ATmega Neural Network — Digit Recognizer](https://github.com/Md-Noman-Biswas/ATmega-NeuralNetwork-DigitRecognizer)** (2025) —
+  Lightweight neural network on ATmega microcontrollers using optimized integer computation and
+  memory-efficient TinyML inference.
+
+## Problem Solving
+
+[**Codeforces**](https://codeforces.com/profile/404_n0man_found) (Pupil, max 1263; 1,186 solved)
+&middot; [**LeetCode**](https://leetcode.com/u/mdnomanbiswassibly/) (125 solved)
+&middot; [**VJudge**](https://vjudge.net/user/404_n0man_found) (378 solved)
+
+## Certificates & Achievements
+
+| Credential | Issuer | Year |
+|---|---|---|
+| [CS50: Introduction to Computer Science](https://certificates.cs50.io/20ea71f8-0bd7-4fee-99d2-d750d8bf2903.pdf?size=letter) | Harvard University | 2023 |
+| [CS50: Databases with SQL](https://certificates.cs50.io/859d625e-0a1c-4953-86a7-ab123898c76d.pdf?size=letter) | Harvard University | 2024 |
+| [Machine Learning Specialization (Andrew Ng)](https://www.coursera.org/account/accomplishments/specialization/7B2Q06GDAO8B) | DeepLearning.AI & Stanford | 2024 |
+| Machine Learning with Python | IBM & Coursera | 2024 |
+| 2nd Runner-Up — ECE Youth Programming Contest | RUET | 2023 |
+
+## Technical Skills
+
+**Languages:** C, C++, Python, JavaScript, SQL
+
+**Data Science & ML:** TensorFlow, Scikit-learn, Pandas, NumPy, Matplotlib
+
+**Web Development:** HTML, CSS, Django, MySQL
+
+**Other Tools:** Git, GitHub, Linux, Jupyter Notebook, Data Analysis

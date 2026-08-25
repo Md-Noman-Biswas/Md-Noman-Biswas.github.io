@@ -77,6 +77,14 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--badge-ongoing-fg);
 }
 
+// Authorship role ("First author" / "Co-author") — quieter than a status badge
+.badge-role {
+  background-color: transparent;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  font-weight: 500;
+}
+
 // Technology / skill tags
 .tag {
   display: inline-block;
