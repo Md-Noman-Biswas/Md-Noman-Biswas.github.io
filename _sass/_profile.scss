@@ -64,8 +64,14 @@
   margin-top: 0.9rem;
   justify-content: center;
 
+  // The sidebar is col-md-3 (~180px of content). At 44px per icon plus a
+  // 0.75rem gap, a fourth icon overflows and wraps onto its own line, so the
+  // targets tighten once we are past the mobile breakpoint — desktop is
+  // pointer-driven, where the 44px touch minimum no longer applies.
   @media (min-width: $breakpoint-md) {
     justify-content: flex-start;
+    gap: 0.25rem;
+    margin-left: -0.35rem; // keep the first glyph optically flush with the text above
   }
 
   .social-link {
@@ -78,6 +84,19 @@
     align-items: center;
     justify-content: center;
     transition: color $theme-transition, transform 0.15s ease;
+
+    @media (min-width: $breakpoint-md) {
+      min-width: 32px;
+      min-height: 32px;
+      font-size: 1.2rem;
+    }
+
+    // Academicons glyphs are drawn smaller within their em box than Font
+    // Awesome's, so they read as undersized next to the fa- icons at the
+    // same font-size.
+    .ai {
+      font-size: 1.12em;
+    }
 
     &:hover {
       color: var(--accent);
