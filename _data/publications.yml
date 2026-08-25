@@ -26,18 +26,20 @@
   authors:
     - name: Md. Noman Biswas Sibly
       is_me: true
-    - name: et al.
+    - name: Md. Himel Reza
+      is_me: false
+    - name: Md. Faysal Ahamed
       is_me: false
   year: 2026
-  venue: "International Conference on Quantum Photonics and AI in Next-gen Medicine (QPAIN)"
-  publisher: ""
+  venue: "2026 IEEE 2nd International Conference on Quantum Photonics, Artificial Intelligence & Networking (QPAIN), pp. 1–6"
+  publisher: "IEEE"
   conference: true
   quartile: ""
   impact_factor: ""
   role: "First author"
-  status: accepted
+  status: published
   links:
-    doi: ""
+    doi: "https://doi.org/10.1109/qpain69676.2026.11545660"
     pdf: ""
     arxiv: ""
     code: ""

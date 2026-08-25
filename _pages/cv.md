@@ -59,8 +59,10 @@ HSC, Science &middot; GPA **5.00 / 5.00**
 - *First author* — "Which Reliability Signal to Trust? Output vs. Representation Space Uncertainty
   Under Distribution Shift in Pathology Foundation Models", **MI4MedFM Workshop, MICCAI 2026**.
   [Code](https://github.com/shadril238/trustshift-pfm)
-- *First author* — "Noise-Robust Gallbladder Ultrasound Image Classification Using U-Net GAN
-  Denoising and Vision Transformer", **QPAIN 2026**.
+- **Sibly, M. N. B.**, Reza, M. H., & Ahamed, M. F. (2026). "Noise-Robust Gallbladder Ultrasound
+  Image Classification Using U-Net GAN Denoising and Vision Transformer." *2026 IEEE 2nd
+  International Conference on Quantum Photonics, Artificial Intelligence & Networking (QPAIN)*,
+  pp. 1–6. [DOI](https://doi.org/10.1109/qpain69676.2026.11545660)
 
 **In preparation**
 
