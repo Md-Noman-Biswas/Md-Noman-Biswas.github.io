@@ -628,7 +628,8 @@
   /* =========================== Publications ============================= */
   var PUB_STATUS = [["published", "Published"], ["accepted", "Accepted"], ["under_review", "Under Review"],
                     ["in_preparation", "In Preparation"], ["ongoing", "Ongoing"]];
-  var PUB_ROLE = [["", "—"], ["First author", "First author"], ["Co-author", "Co-author"]];
+  var PUB_ROLE = [["", "—"], ["First author", "First author"],
+                  ["Second author", "Second author"], ["Co-author", "Co-author"]];
   function slugify(s) {
     return String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) || "pub";
   }

@@ -46,31 +46,29 @@ HSC, Science &middot; GPA **5.00 / 5.00**
 
 ## Research
 
-**Published**
-
-- Reza, M. H., **Sibly, M. N. B.**, Rabbani, S. G., Sadi, S. H., Ahamed, M. F., Shafi, F. B.,
-  Sarmun, R., & Chowdhury, M. E. H. (2026). "A comprehensive review of convolutional neural
-  networks: foundations, enhancements and applications." *Neural Computing and Applications*,
-  38(4), Article 56. (Springer, Q1, IF 5.102)
-  [DOI](https://doi.org/10.1007/s00521-025-11827-w)
-
-**Accepted**
+**Publications**
 
 - *First author* — "Which Reliability Signal to Trust? Output vs. Representation Space Uncertainty
-  Under Distribution Shift in Pathology Foundation Models", **MI4MedFM Workshop, MICCAI 2026**.
-  [Code](https://github.com/shadril238/trustshift-pfm)
-- **Sibly, M. N. B.**, Reza, M. H., & Ahamed, M. F. (2026). "Noise-Robust Gallbladder Ultrasound
+  Under Distribution Shift in Pathology Foundation Models." Accepted at the **MI4MedFM Workshop,
+  MICCAI 2026**. [Code](https://github.com/shadril238/trustshift-pfm)
+
+- *Second author* — Reza, M. H., **Sibly, M. N. B.**, Rabbani, S. G., Sadi, S. H., Ahamed, M. F.,
+  Shafi, F. B., Sarmun, R., & Chowdhury, M. E. H. (2026). "A comprehensive review of convolutional
+  neural networks: foundations, enhancements and applications." *Neural Computing and
+  Applications*, 38(4), Article 56. (Springer, Q1, IF 5.102)
+  [DOI](https://doi.org/10.1007/s00521-025-11827-w)
+- *First author* — **Sibly, M. N. B.**, Reza, M. H., & Ahamed, M. F. (2026). "Noise-Robust Gallbladder Ultrasound
   Image Classification Using U-Net GAN Denoising and Vision Transformer." *2026 IEEE 2nd
   International Conference on Quantum Photonics, Artificial Intelligence & Networking (QPAIN)*,
   pp. 1–6. [DOI](https://doi.org/10.1109/qpain69676.2026.11545660)
 
-**In preparation**
+**Manuscript in Preparation**
 
 - *First author* — "JTADC-Net: An Adversarial Joint Task-Aware Denoising and Classification Network
   for Noise Robust Gallbladder Disease Diagnosis".
   [Code](https://github.com/Md-Noman-Biswas/JTADC-Net)
 
-**Ongoing**
+**Ongoing Research**
 
 - Trustworthy AI in Healthcare (undergraduate thesis).
 
