@@ -17,9 +17,9 @@ scholar_hindex: "1"
 scholar_i10: "1"
 scholar_updated: "August 2026"
 bio: |
-  I am a final-year **B.Sc. student in Electrical and Computer Engineering** at [Rajshahi University of Engineering & Technology (RUET)](https://www.ruet.ac.bd/), Bangladesh. My research sits at the intersection of **Trustworthy AI**, deep learning, and computer vision — with a focus on building reliable, interpretable AI systems for high-stakes domains such as medical imaging.
+  I am a final-year **B.Sc. student in Electrical and Computer Engineering** at [Rajshahi University of Engineering & Technology (RUET)](https://www.ruet.ac.bd/), Bangladesh. My research sits at the intersection of **Trustworthy AI**, deep learning, and computer vision, with a focus on building reliable, interpretable AI systems for high-stakes domains such as medical imaging.
 
-  My work centres on the **reliability of machine learning systems**: uncertainty quantification, mechanistic interpretability, and robustness to noisy or shifted inputs. I treat these as general properties of learning systems rather than domain-specific patches — the same questions about calibration, representation quality, and failure detection recur whether the input is a medical scan or a multimodal prompt.
+  My work centres on the **reliability of machine learning systems**: uncertainty quantification, mechanistic interpretability, and robustness to noisy or shifted inputs. I treat these as general properties of learning systems rather than domain-specific patches. The same questions about calibration, representation quality, and failure detection recur whether the input is a medical scan or a multimodal prompt.
 
   I also have experience in **algorithm design and analysis**, developed through competitive programming.
 seeking: |
