@@ -19,8 +19,8 @@ scholar_updated: "August 2026"
 bio: |
   I am a final-year **B.Sc. student in Electrical and Computer Engineering** at [Rajshahi University of Engineering & Technology (RUET)](https://www.ruet.ac.bd/), Bangladesh. My research sits at the intersection of **Trustworthy AI**, deep learning, and computer vision — with a focus on building reliable, interpretable AI systems for high-stakes domains such as medical imaging.
 
-  My current work asks **which reliability signals actually hold up under distribution shift** — comparing output-space and representation-space uncertainty in pathology foundation models (MICCAI 2026 workshop) — alongside noise-robust medical image classification with adversarial denoising and vision transformers. As a research assistant at the ELITE Research Lab I also work on **mechanistic interpretability**, making model predictions explainable rather than merely accurate.
+  My work centres on the **reliability of machine learning systems**: uncertainty quantification, mechanistic interpretability, and robustness to noisy or shifted inputs. I treat these as general properties of learning systems rather than domain-specific patches — the same questions about calibration, representation quality, and failure detection recur whether the input is a medical scan or a multimodal prompt.
 
-  I have a strong competitive programming background (Codeforces Pupil, max rating 1263; ~1,700 problems solved across Codeforces, LeetCode, and VJudge) and experience taking neural networks all the way down to bare-metal microcontrollers.
+  I also have experience in **algorithm design and analysis**, developed through competitive programming.
 seeking: |
   **I am actively seeking research-oriented graduate opportunities (M.S. / Ph.D.)** in intelligent, reliable AI systems. If you are looking for a motivated and research-driven student, feel free to reach out at [mdnomanbiswassibly@gmail.com](mailto:mdnomanbiswassibly@gmail.com).
