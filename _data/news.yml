@@ -2,6 +2,8 @@
 # Each item: a short date label + text (basic HTML like <strong>/<em> allowed).
 - date: "2026"
   text: "First-author paper accepted at the <strong>MI4MedFM Workshop, MICCAI 2026</strong> — \"Which Reliability Signal to Trust? Output vs. Representation Space Uncertainty Under Distribution Shift in Pathology Foundation Models\"."
+- date: "Jul 2026"
+  text: "Placed <strong>6th</strong> at the <strong>AI Hackathon</strong> hosted at DUET — <a href=\"/assets/pdf/Md_Noman_Biswas_Sibly_AI_Hackathon_DUET.pdf\">certificate</a> awarded by the Department of Electrical &amp; Computer Engineering, RUET."
 - date: "2026"
   text: "Joined the <strong>ELITE Research Lab</strong> as a part-time Research Assistant, working on <em>mechanistic interpretability</em> of neural networks."
 - date: "2026"
