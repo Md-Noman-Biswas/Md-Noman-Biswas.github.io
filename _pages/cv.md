@@ -78,8 +78,8 @@ HSC, Science &middot; GPA **5.00 / 5.00**
 Mechanistic interpretability of neural networks — making predictions explainable.
 
 **AI & ML Trainee** &middot; BDSET &middot; 2025 – 2026
-Applied ML training: preprocessing, model building, tuning, and evaluation (Python, TensorFlow,
-Scikit-learn).
+Six-month, 288-hour program in AI, ML, and immersive technologies under Bangladesh Hi-Tech Park
+Authority. [Certificate](/assets/pdf/Md_Noman_Biswas_Sibly_BDSET_AI_Immersive_Tech.pdf)
 
 **Programming Mentor** &middot; RUET Analytical Programming Lab &middot; 2024 – 2025
 Taught algorithms and debugging; guided students in competitive programming and contest
@@ -107,10 +107,10 @@ preparation.
 
 | Credential | Issuer | Year |
 |---|---|---|
-| [CS50: Introduction to Computer Science](https://certificates.cs50.io/20ea71f8-0bd7-4fee-99d2-d750d8bf2903.pdf?size=letter) | Harvard University | 2023 |
-| [CS50: Databases with SQL](https://certificates.cs50.io/859d625e-0a1c-4953-86a7-ab123898c76d.pdf?size=letter) | Harvard University | 2024 |
+| [6th Place — AI Hackathon, DUET](/assets/pdf/Md_Noman_Biswas_Sibly_AI_Hackathon_DUET.pdf) | Dept. of ECE, RUET | 2026 |
 | [Machine Learning Specialization (Andrew Ng)](https://www.coursera.org/account/accomplishments/specialization/7B2Q06GDAO8B) | DeepLearning.AI & Stanford | 2024 |
-| Machine Learning with Python | IBM & Coursera | 2024 |
+| [CS50: Databases with SQL](https://certificates.cs50.io/859d625e-0a1c-4953-86a7-ab123898c76d.pdf?size=letter) | Harvard University | 2024 |
+| [CS50: Introduction to Computer Science](https://certificates.cs50.io/20ea71f8-0bd7-4fee-99d2-d750d8bf2903.pdf?size=letter) | Harvard University | 2023 |
 | 2nd Runner-Up — ECE Youth Programming Contest | RUET | 2023 |
 
 ## Technical Skills
