@@ -78,7 +78,7 @@ HSC, Science &middot; GPA **5.00 / 5.00**
 Mechanistic interpretability of neural networks — making predictions explainable.
 
 **AI & ML Trainee** &middot; BDSET &middot; 2025 – 2026
-Six-month, 288-hour program in AI, ML, and immersive technologies under Bangladesh Hi-Tech Park
+Six-month program in AI, ML, and immersive technologies under Bangladesh Hi-Tech Park
 Authority. [Certificate](/assets/pdf/Md_Noman_Biswas_Sibly_BDSET_AI_Immersive_Tech.pdf)
 
 **Programming Mentor** &middot; RUET Analytical Programming Lab &middot; 2024 – 2025
