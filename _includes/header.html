@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-md sticky-top" id="main-navbar">
-  <div class="container" style="max-width: 900px;">
+  <div class="container site-container">
 
     <a class="navbar-brand" href="{{ '/' | relative_url }}">
       {{ site.author.name }}
@@ -19,7 +19,7 @@
     </div>
 
     <div class="collapse navbar-collapse" id="navbarMain">
-      <ul class="navbar-nav ms-auto align-items-md-center me-2">
+      <ul class="navbar-nav ms-auto align-items-md-center">
         {% for item in site.data.navigation %}
         <li class="nav-item">
           <a class="nav-link{% if page.url == item.url %} active{% endif %}"

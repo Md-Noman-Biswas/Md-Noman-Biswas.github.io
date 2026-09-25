@@ -48,6 +48,14 @@
     }
   }
 
+  // Desktop: the toggle glyph sits centred in a 44px box; pull the box out so
+  // the glyph, not the box, lines up with the content's right edge.
+  @media (min-width: $breakpoint-md) {
+    #navbarMain .theme-toggle-btn {
+      margin-right: -0.75rem;
+    }
+  }
+
   // Mobile collapsed menu styles
   .navbar-collapse {
     @media (max-width: #{$breakpoint-md - 1}) {

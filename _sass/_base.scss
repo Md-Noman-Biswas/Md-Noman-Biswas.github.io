@@ -109,9 +109,32 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid var(--border-color);
 }
 
+// Shared outer container (navbar, footer, home, pages). Overrides Bootstrap's
+// per-breakpoint .container widths and its 0.75rem gutter.
+.container.site-container {
+  max-width: $site-width;
+  padding-left: $site-gutter-mobile;
+  padding-right: $site-gutter-mobile;
+
+  @media (min-width: $breakpoint-md) {
+    padding-left: $site-gutter;
+    padding-right: $site-gutter;
+  }
+}
+
 // Page container
 .page-container {
   max-width: $max-content-width;
   margin: 0 auto;
   padding: 2.5rem 1.5rem;
+}
+
+.container.site-container.page-container {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+  @media (min-width: $breakpoint-md) {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
 }

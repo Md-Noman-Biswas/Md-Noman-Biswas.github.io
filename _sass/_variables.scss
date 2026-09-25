@@ -7,6 +7,11 @@ $line-height-base: 1.75;
 // Layout
 $navbar-height: 56px;
 $max-content-width: 860px;
+// One width and one side gutter shared by the navbar, footer and every page,
+// so the brand, the sidebar and the page title all start on the same line.
+$site-width: 1000px;
+$site-gutter: 1.5rem;
+$site-gutter-mobile: 1rem;
 $section-spacing: 2.5rem;
 
 // Transitions
