@@ -34,7 +34,7 @@ description: "Curriculum Vitae — Md. Noman Biswas Sibly"
 
 Final-year B.Sc. ECE student at RUET working on **Trustworthy AI** — uncertainty and reliability
 under distribution shift, mechanistic interpretability, and noise-robust medical image analysis.
-Actively seeking research-oriented graduate (M.S./Ph.D.) opportunities.
+Actively seeking research-oriented graduate (M.S./Ph.D.) opportunities for Fall 2027.
 
 ## Education
 
