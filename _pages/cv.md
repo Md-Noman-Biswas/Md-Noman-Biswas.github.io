@@ -39,7 +39,7 @@ Actively seeking research-oriented graduate (M.S./Ph.D.) opportunities for Fall 
 ## Education
 
 **Rajshahi University of Engineering & Technology (RUET)** &middot; Dec 2022 – Present
-B.Sc. in Electrical and Computer Engineering &middot; CGPA **3.56 / 4.00** (after 6th semester)
+B.Sc. in Electrical and Computer Engineering &middot; CGPA **3.59 / 4.00** (after 7th semester)
 
 **BAF Shaheen College, Jashore** &middot; Jul 2019 – Dec 2021
 HSC, Science &middot; GPA **5.00 / 5.00**
